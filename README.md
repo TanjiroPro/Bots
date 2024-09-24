@@ -215,7 +215,7 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
-| Channel | Mickey | [¡Click aquí!](https://whatsapp.com/channel/0029Vajmcez5PO0xdMq2Qu1e) |
+| Channel | Mickey | [¡Click aquí!](https://whatsapp.com/channel/0029VaiHa0GJkK7If3ctDH0g) |
 
 ---
 
