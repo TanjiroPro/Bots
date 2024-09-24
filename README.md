@@ -3,7 +3,7 @@
 </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Mickey+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+Mateo;💥+BOOM!!!;🔥)](https://git.io/typing-svg)
-![Mickey](https://qu.ax/DsAV.jpg)
+![Mickey](https://qu.ax/OsGd.jpg)
 
 ---
 
