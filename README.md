@@ -7,9 +7,6 @@
 
 ---
 
-### **`❕️ Información importante`**
-
-<details>
  <summary><b> 👑 Superiority Pro </b></summary>
 ### **`SUPERIORITY PRO HOSTING 🤖`**
 <a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
@@ -22,7 +19,9 @@
 - **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
 
 </details>
+---
 
+### **`❕️ Información importante`**
 <details>
  <summary><b> 🌹 Info Bot</b></summary>
 
