@@ -11,7 +11,7 @@
 
 <details>
  <summary><b> 👑 Superiority Pro </b></summary>
-**Próximamente Saldrá**
+Próximamente
 </details>
 
 ---
