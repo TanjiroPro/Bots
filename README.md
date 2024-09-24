@@ -7,21 +7,8 @@
 
 ---
 
- <summary><b> 👑 Superiority Pro </b></summary>
-### **`SUPERIORITY PRO HOSTING 🤖`**
-<a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Dashboard:** [`Aquí`](https://store.azuraultra-host.pro)
-- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
-- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
-
-</details>
----
-
 ### **`❕️ Información importante`**
+
 <details>
  <summary><b> 🌹 Info Bot</b></summary>
 
@@ -36,9 +23,8 @@
 <details>
 <summary><b> 💣 Contáctos</b></summary>
 
-* themeguminbot@gmail.com
-* https://wa.me/5493876432076
-* https://wa.me/5351524614
+* yallico2024@gmail.com
+* https://wa.me/51926956637
 
 </details>
 
@@ -229,6 +215,14 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
 | Channel | Mickey | [¡Click aquí!](https://whatsapp.com/channel/0029VaiHa0GJkK7If3ctDH0g) |
+
+---
+
+## **`🔗 Hostings `**
+
+| Host | Bot | Link |
+|------|-------------|-------|
+| Superiority | Mickey Bot | [¡Click aquí!](https://system.py.superiority) |
 
 ---
 
