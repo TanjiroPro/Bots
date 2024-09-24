@@ -11,7 +11,9 @@
 
 <details>
  <summary><b> 👑 Superiority Pro </b></summary>
-Próximamente
+- **Dashboard:** [`Aquí`](https://store.azuraultra-host.pro)
+- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
+- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
 </details>
 
 ---
