@@ -7,7 +7,7 @@ Pues te presento a *Superiority Host*, un hosting de calidad con servidores dedi
 🟢 \`\`\`Información del Host\`\`\`
 
 🔮 *Dashboard:* 
-• hrrps://system.py.superiority.pro
+• https://system.py.superiority.pro
 
 🧃 *Panel:*
 • https://control.py.superiority.pro
