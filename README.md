@@ -10,6 +10,12 @@
 ### **`❕️ Información importante`**
 
 <details>
+ <summary><b> 👑 Superiority Pro </b></summary>
+*Próximamente Saldrá*
+</details>
+
+---
+<details>
  <summary><b> 🌹 Info Bot</b></summary>
 
 * Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
