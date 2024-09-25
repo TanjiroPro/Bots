@@ -24,30 +24,30 @@ let Styles = (text, style = 1) => {
 };
 
 let tags = {
-  'main': 'ɪɴꜰᴏ ʙᴏᴛ',
-  'buscador': 'ʙᴜꜱQᴜᴇᴅᴀꜱ',
-  'search': 'ꜱᴇᴀʀᴄʜ',
-  'game': 'ᴅɪᴠᴇʀꜱɪᴏɴ',
-  'jadibot': 'ꜱᴜʙ ʙᴏᴛꜱ',
-  'rpg': 'ʀᴘɢ',
-  'rg': 'ʀᴇɢɪꜱᴛʀᴏ',
-  'xp': 'ᴇxᴘ',
-  'sticker': 'ꜱᴛɪᴄᴋᴇʀꜱ',
-  'anime': 'ᴀɴɪᴍᴇꜱ',
-  'database': 'ᴅᴀᴛᴀʙᴀꜱᴇ',
-  'fix': 'ꜰɪxᴍꜱɢᴇꜱᴘᴇʀᴀ',
-  'grupo': 'ɢʀᴜᴘᴏꜱ',
-  'nable': 'ᴏɴ / ᴏꜰꜰ', 
-  'dl': 'ᴅᴇꜱᴄᴀʀɢᴀꜱ',
-  'fun': 'ʜᴇʀʀᴀᴍɪᴇɴᴛᴀꜱ',
-  'info': 'ɪɴꜰᴏʀᴍᴀᴄɪᴏɴ',
-  'nsfw': 'ɴꜱꜰᴡ', 
-  'owner': 'ᴄʀᴇᴀᴅᴏʀ',
-  'mods': 'ꜱᴛᴀꜰꜰ',
-  'audio': 'ᴀᴜᴅɪᴏꜱ', 
-  'ai': 'ᴀɪ ʙᴏᴛ',
-  'convertir': 'ᴄᴏɴᴠᴇʀᴛɪᴅᴏʀᴇꜱ',
-  'audios': 'ᴀᴜᴅɪᴏꜱ',
+  'main': '💫 ɪɴꜰᴏ ʙᴏᴛ 💫',
+  'buscador': '🔎 ʙᴜꜱQᴜᴇᴅᴀꜱ 🔎',
+  'search': '🔍 ꜱᴇᴀʀᴄʜ 🔍',
+  'game': '🎊 ᴅɪᴠᴇʀꜱɪᴏɴ 🎊',
+  'jadibot': '🤖 ꜱᴜʙ ʙᴏᴛꜱ 🤖',
+  'rpg': '💻 ʀᴘɢ 💻',
+  'rg': '🛡️ ʀᴇɢɪꜱᴛʀᴏ 🛡️',
+  'xp': '⭐ ᴇxᴘ ⭐',
+  'sticker': '💢 ꜱᴛɪᴄᴋᴇʀꜱ 💢',
+  'anime': '💣ᴀɴɪᴍᴇꜱ💣',
+  'database': '💥ᴅᴀᴛᴀʙᴀꜱᴇ💥',
+  'fix': ', ✋🏼 ꜰɪxᴍꜱɢᴇꜱᴘᴇʀᴀ ✋🏼',
+  'grupo': '👥 ɢʀᴜᴘᴏꜱ 👥',
+  'nable': '👀 ᴏɴ / ᴏꜰꜰ 👀', 
+  'dl': '🎵 ᴅᴇꜱᴄᴀʀɢᴀꜱ 🎵',
+  'fun': '⚒️ ʜᴇʀʀᴀᴍɪᴇɴᴛᴀꜱ ⚒️',
+  'info': '⚔️ ɪɴꜰᴏʀᴍᴀᴄɪᴏɴ ⚔️',
+  'nsfw': '🔞 ɴꜱꜰᴡ 🔞', 
+  'owner': '👑 ᴄʀᴇᴀᴅᴏʀ 👑',
+  'mods': '👤 ꜱᴛᴀꜰꜰ 👤',
+  'audio': '🎶 ᴀᴜᴅɪᴏꜱ 🎶', 
+  'ai': '🔰 ᴀɪ ʙᴏᴛ 🔰',
+  'convertir': '⭕ ᴄᴏɴᴠᴇʀᴛɪᴅᴏʀᴇꜱ ⭕',
+  'audios': '🔊 ᴀᴜᴅɪᴏꜱ 🔊',
 }
 
 const defaultMenu = {
@@ -157,7 +157,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '🤍 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🤍 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '💫 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `💫 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -180,8 +180,8 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/
   const gif = await response.buffer()
  // const img = imagen1
 
-await m.react('🤍') 
-// await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🤍 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
+await m.react('💫') 
+// await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '💫 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 let imagen_menu = await getBuffer(ppp);
