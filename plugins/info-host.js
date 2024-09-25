@@ -7,16 +7,16 @@ Pues te presento a *Superiority Host*, un hosting de calidad con servidores dedi
 🟢 \`\`\`Información del Host\`\`\`
 
 🔮 *Dashboard:* 
-• https://system.py.superiority.pro
+• 
 
 🧃 *Panel:*
-• https://control.py.superiority.pro
+• 
 
 💥 *Canal:*
-• https://whatsapp.com/channel/0029Vajmcez5PO0xdMq2Qu1e
+• 
 
 ⚜️ *Contacto (Mateo)*
-https://wa.me/51926956637
+
 
 > *Únete a está comunidad y disfruta de un servicio de calidad :D*` 
 await conn.sendMessage(m.chat, { text: txt,
@@ -30,7 +30,7 @@ title: `🔵 S U P E R I O R I T Y - H O S T 🔵`,
 body: `⚜️ Super Hosting 24/7 ⚜️`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/DsAV.jpg', 
-sourceUrl: 'https://system.py.superiority.pro'}}},
+sourceUrl: ''}}},
 { quoted: fkontak})
 }
 handler.tags =['main'] 
