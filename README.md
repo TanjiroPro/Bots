@@ -223,7 +223,7 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 | Host | Bot | Link |
 |------|-------------|-------|
 | Superiority | Mickey Bot | [¡Click aquí!](https://sstem.py.superiority) |
-| Tk | Mickey Bot | [¡Click aquí!](https://dash.tk-joanhost.com) |
+| Tk Host | Mickey Bot | [¡Click aquí!](https://dash.tk-joanhost.com) |
 
 ---
 
