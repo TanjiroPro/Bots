@@ -24,7 +24,7 @@ let Styles = (text, style = 1) => {
 };
 
 let tags = {
-  'ff': '👾 ꜰʀᴇᴇ ꜰɪʀᴇ 👾',
+  'free': '👾 ꜰʀᴇᴇ ꜰɪʀᴇ 👾',
   'main': '💫 ɪɴꜰᴏ ʙᴏᴛ 💫',
   'buscador': '🔎 ʙᴜꜱQᴜᴇᴅᴀꜱ 🔎',
   'search': '🔍 ꜱᴇᴀʀᴄʜ 🔍',

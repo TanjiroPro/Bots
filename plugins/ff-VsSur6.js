@@ -2,8 +2,8 @@ const handler = async (m, {conn}) => {
   m.reply(global.Sur6);
 };
 handler.command = /^(Sur6)$/i;
+handler.tags = ['free']
 export default handler;
-handler.tags = ['ff']
 global.Sur6 = ` 
 ╭┈┈ *VERSUS 4x4*
 │
