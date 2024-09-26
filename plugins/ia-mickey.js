@@ -17,7 +17,7 @@ await conn.sendMessage(m.chat, {
 text: result,
 contextInfo: {
 externalAdReply: {
-title: '[ 𝗚 𝗘 𝗡 𝗘 𝗦 𝗜 𝗦 - 𝗔 𝗜 ]',
+title: '[ 𝗠 𝗶 𝗰 𝗸 𝗲 𝘆 - 𝗔 𝗜 ]',
 body: '𝗠𝗶𝗰𝗸𝗲𝘆 𝗕𝗼𝘁 - 𝗠𝗗 ',
 thumbnailUrl: 'https://qu.ax/UTgs.jpg',
 sourceUrl: canal,
