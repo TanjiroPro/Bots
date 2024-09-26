@@ -14,8 +14,8 @@ text: json.result,
 contextInfo: {
 externalAdReply: {
 title: '[ 𝐆 𝐄 𝐌 𝐈 𝐍 𝐈 - 𝐀 𝐈 ]',
-body: '©𝟐𝟎𝟐𝟒 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐨-𝐎𝐅𝐂',
-thumbnailUrl: 'https://i.ibb.co/235B4nn/file.jpg',
+body: '𝗠𝗶𝗰𝗸𝗲𝘆 𝗕𝗼𝘁 - 𝗠𝗗 ',
+thumbnailUrl: 'https://qu.ax/UTgs.jpg',
 sourceUrl: canal,
 mediaType: 1,
 renderLargerThumbnail: true

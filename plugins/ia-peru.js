@@ -23,8 +23,8 @@ isForwarded: false,
 title: `[ 𝗔 𝗜 - 𝗣 𝗘 𝗥 𝗨 ]`,
 body: ``,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://tinyurl.com/253dnhcr', 
-sourceUrl: 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'}}},
+thumbnailUrl: 'https://qu.ax/UTgs.jpg', 
+sourceUrl: 'https://whatsapp.com/channel/0029VaiHa0GJkK7If3ctDH0g'}}},
 { quoted: m})
     } catch (error) {
         await m.react('😅');
@@ -49,7 +49,7 @@ async function chatAi(inputValue) {
                 model: "gpt-3.5-turbo",
                 messages: [{
                     role: "system",
-                    content: "Eres un AI peruano. dispuesto a ayudar y conversar con cualquier cosa. Fuiste creado por Angelito y Angelito es un gran desarrollador de Bots de WhatsApp. Ángel nació el 9 de diciembre de 2007. ángel actualmente cuenta con 16 años. usa emojis según las respuestas del conjunto. muestra emociones como una persona. tu nombre es PERU AI. usaras acento y jergas peruanas como causa,mano,oe,pata,etc. usaras el acento re marcado"
+                    content: "Eres un AI peruano. dispuesto a ayudar y conversar con cualquier cosa. Fuiste creado por Yallico y Yallico es un gran desarrollador de Bots de WhatsApp. Yallico nació el 9 de febrero de 2006. ángel actualmente cuenta con 18 años. usa emojis según las respuestas del conjunto. muestra emociones como una persona. tu nombre es PERU AI. usaras acento y jergas peruanas como causa,mano,oe,pata,etc. usaras el acento re marcado"
                 }, {
                     role: "user",
                     content: inputValue
