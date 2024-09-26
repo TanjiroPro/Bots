@@ -222,9 +222,34 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 | Host | Bot | Link |
 |------|-------------|-------|
-| Superiority | Mickey Bot | [¡Click aquí!](https://system.py.superiority) |
+| Superiority | Mickey Bot | [¡Click aquí!](https://sstem.py.superiority) |
+| Tk | Mickey Bot | [¡Click aquí!](https://dash.tk-joanhost.com) |
 
 ---
+
+### **`TK HOST 📲`**
+<a href="https://dash.tk-joanhost.com"><img src="https://i.ibb.co/pr8TnWJ/SAVE-20240915-183758.jpg" height="125px"></a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Dashboard:** [`Aquí`](https://dash.tk-joanhost.com)
+- **Panel:** [`Aquí`](https://panel.tk-joanhost.com)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27)
+
+</details>
+
+### **`Superiority Host 📲`**
+<a href="https://sstem.py.superiority.pro"><img src="https://qu.ax/DsAV.jpg" height="125px"></a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Dashboard:** [`Aquí`](https://sstem.py.superiority.pro)
+- **Panel:** [`Aquí`](https://contro.py.superiority.pro)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Vajmcez5PO0xdMq2Qu1e)
+
+</details>
 
 ### **`🌴 COLABORADORES`**
 <a href="https://github.com/MickeyVipPro/MickeyBot-Md/graphs/contributors">
