@@ -3,7 +3,7 @@ const handler = async (m, {conn}) => {
 };
 handler.command = /^(Sur4)$/i;
 handler.tags =['free'] 
-handler.help = ['Sur4', 'sur4'] 
+handler.help = ['Sur4'] 
 export default handler;
 global.Sur4 = ` 
 ╭┈┈ *VERSUS 4x4*

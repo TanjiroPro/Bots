@@ -3,7 +3,7 @@ const handler = async (m, {conn}) => {
 };
 handler.command = /^(Norte4)$/i;
 handler.tags =['free'] 
-handler.help = ['Norte4', 'norte4'] 
+handler.help = ['Norte4'] 
 export default handler;
 global.Norte4 = ` 
 ╭┈┈ *VERSUS 4x4*
