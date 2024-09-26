@@ -2,7 +2,8 @@ const handler = async (m, {conn}) => {
   m.reply(global.Norte6);
 };
 handler.command = /^(Norte6)$/i;
-handler.tags = ['free']
+handler.tags =['free'] 
+handler.help = ['Norte6', 'norte6'] 
 export default handler;
 global.Norte6 = ` 
 ╭┈┈ *VERSUS 6x6*
