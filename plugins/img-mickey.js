@@ -1,5 +1,5 @@
 let handler = async (m, {conn, command}) => {
-  let url = pack[Math.floor(Math.random() * pack.length)];
+  let url = Mickey[Math.floor(Math.random() * Mickey.length)];
     await conn.sendFile( 
      m.chat, 
      url, 
@@ -12,7 +12,7 @@ handler.tags = ["internet"];
 handler.command = /^(Mickey)$/i;
 export default handler;
 
-global.pack = [
+global.Mickey = [
   "https://qu.ax/wepw.jpg",
   "https://qu.ax/rKie.jpg",
   "https://qu.ax/LTzg.jpg",
