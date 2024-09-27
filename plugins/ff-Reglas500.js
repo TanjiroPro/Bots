@@ -1,14 +1,14 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.NorteInfi);
+  m.reply(global.Infinito);
 };
-handler.command = /^(NorteInfi)$/i;
+handler.command = /^(Infinito)$/i;
 handler.tags =['free'] 
-handler.help = ['NorteInfi'] 
+handler.help = ['Infinito'] 
 export default handler;
-global.NorteInfi = ` 
+global.Infinito = ` 
 *Sala*
 •1Ra sala crea: Rival
-•2da sala crea: Clan' x7!
+•2da sala crea: 
  (3ra sala crea perdedor de primera)
 
 *Configuración*
