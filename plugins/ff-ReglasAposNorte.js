@@ -1,11 +1,11 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.NorteApos);
+  m.reply(global.Apos);
 };
-handler.command = /^(NorteApos)$/i;
+handler.command = /^(Apos)$/i;
 handler.tags =['free'] 
-handler.help = ['NorteApos'] 
+handler.help = ['Apos'] 
 export default handler;
-global.NorteApos = ` 
+global.Apos = ` 
 💠• REGLAS APOS •💠
 
 📌• PRIMERA SALA: RIVAL
