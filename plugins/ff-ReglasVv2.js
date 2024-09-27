@@ -8,8 +8,8 @@ export default handler;
 global.Vv2 = ` 
 Reglas Vivido 
 
-primera sala crea rival
-segunda sala crea Clan' x7!
+primera sala crea : rival
+segunda sala crea :
 tercera sala crea el perdedor de primera sala
 13 Rondas
 200hp
