@@ -1,11 +1,11 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.NorteVv2);
+  m.reply(global.Vv2);
 };
-handler.command = /^(NorteVv2)$/i;
+handler.command = /^(Vv2)$/i;
 handler.tags =['free'] 
-handler.help = ['NorteVv2'] 
+handler.help = ['Vv2'] 
 export default handler;
-global.NorteVv2 = ` 
+global.Vv2 = ` 
 Reglas Vivido 
 
 primera sala crea rival
