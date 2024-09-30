@@ -1,42 +1,57 @@
-//Codígo creado por David Chian wa.me/5351524614
-
-import fs from 'fs';
-import path from 'path';
-
-let handler = async (m, { conn, usedPrefix }) => {
-    let who;
-    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
-    else who = m.chat;
-    if (!who) throw '🤍 Etiqueta o menciona a alguien';
-
-    let user = global.db.data.users[who];
-    let name = conn.getName(who);
-    let name2 = conn.getName(m.sender);
-    m.react('😍');
-    let str = `${name2} está enamorad﹫ de  ${name}`.trim();
-    if (m.isGroup){
-    
-    let pp = 'https://telegra.ph/file/5fbd60c40ab190ecc8e1c.mp4'
-    let pp2 = 'https://telegra.ph/file/ca30d358d292674698b40.mp4'
-    let pp3 = 'https://telegra.ph/file/25f88386dd7d4d6df36fa.mp4' 
-    let pp4 = 'https://telegra.ph/file/eb63131df0de6b47c7ab7.mp4'
-    let pp5 = 'https://telegra.ph/file/209990ee46c645506a5fc.mp4' 
-    let pp6 = 'https://telegra.ph/file/440f276fcbb2d04cbf1d1.mp4'
-    let pp7 = 'https://telegra.ph/file/42cea67d9b013ed9a9cd0.mp4' 
-    let pp8 = 'https://telegra.ph/file/bc0f47b8f3fb9470bc918.mp4' 
-    let pp9 = 'https://telegra.ph/file/79ae875090b64ab247b7a.mp4' 
-    let pp10 = 'https://telegra.ph/file/63222faf293e9d086f607.mp4'
-    const videos = [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10];
-    const video = videos[Math.floor(Math.random() * videos.length)];
-    conn.sendMessage(m.chat, { video: { url: video }, gifPlayback: true, caption:str, mentions: [m.sender] },{ quoted: estilo })
-    };
-   
-  
-}
-
-handler.help = ['enamorada @tag'];
+const handler = async (m, { conn, command, text }) => {
+  const lovePercentage = Math.floor(Math.random() * 100);
+  const isHighLove = lovePercentage >= 50;
+  const loveMessages = [
+    "¡Eso es un amor ardiente y apasionado! ¡Ve y díselo ahora mismo!",
+    "Parece que hay una chispa entre ustedes dos. ¡Inténtalo!",
+    "Podría haber algo especial aquí. ¡Dale una oportunidad!",
+    "Hmm, el amor está en el aire. ¡Quizás sea hora de un café juntos!",
+    "Las estrellas indican que hay un potencial romántico. ¡Haz un movimiento!",
+    "Una historia de amor increíble podría estar esperando para ser escrita por ustedes.",
+    "No subestimen el poder del tiempo y la paciencia en el amor. Grandes cosas pueden suceder.",
+    "Recuerden que el amor es un viaje, y cada paso es valioso, sin importar la distancia.",
+    "Las conexiones fuertes pueden convertirse en relaciones hermosas. ¡Sigan explorando!",
+    "El amor verdadero a menudo requiere tiempo y esfuerzo. ¡No renuncien!",
+  ];
+  const notSoHighLoveMessages = [
+    "A veces, la amistad es el comienzo de algo hermoso, pero no siempre se convierte en amor.",
+    "El amor no es todo, ¡la amistad también es genial! Mantengan su amistad especial.",
+    "Recuerda que las mejores relaciones comienzan con una buena amistad. ¡No subestimen su vínculo!",
+    "A veces, el amor puede crecer con el tiempo. ¡Sigan fortaleciendo su conexión!",
+    "La vida es una sorpresa, ¡quién sabe qué depara el futuro! No pierdan la esperanza.",
+    "Aunque el amor no florezca como esperaban, su conexión sigue siendo valiosa.",
+    "Los corazones pueden tardar en sincronizarse, pero eso no disminuye lo especial que son juntos.",
+    "A pesar de los desafíos del amor, su amistad es un regalo que merece ser celebrado.",
+    "El tiempo puede revelar cosas sorprendentes. ¡Sigamos explorando juntos!",
+    "La vida está llena de giros inesperados. ¡Permanezcan abiertos a las posibilidades!",
+  ];
+  const loveDescription = isHighLove ? "tienen una conexión profunda y un amor" : "tienen una conexión especial, aunque en el amor su porcentaje es";
+  const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
+  const loveMessage = isHighLove ? getRandomMessage(loveMessages) : getRandomMessage(notSoHighLoveMessages);
+  const response =
+    `━━━━━━━⬣ *LOVE* ⬣━━━━━━━\n` +
+    `*❥ En el universo del amor, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
+    `*❥ ${loveMessage}*\n` +
+    `━━━━━━━⬣ *LOVE* ⬣━━━━━━━`    
+  
+  async function loading() {
+var hawemod = [
+"《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
+"《 ████▒▒▒▒▒▒▒▒》30%",
+"《 ███████▒▒▒▒▒》50%",
+"《 ██████████▒▒》80%",
+"《 ████████████》100%"
+]
+   let { key } = await conn.sendMessage(m.chat, {text: `*💞 ¡Calculando Porcentaje! 💞*`, mentions: conn.parseMention(response)}, {quoted: m})
+ for (let i = 0; i < hawemod.length; i++) {
+   await new Promise(resolve => setTimeout(resolve, 1000)); 
+   await conn.sendMessage(m.chat, {text: hawemod[i], edit: key, mentions: conn.parseMention(response)}, {quoted: m}); 
+  }
+  await conn.sendMessage(m.chat, {text: response, edit: key, mentions: conn.parseMention(response)}, {quoted: m});         
+ }
+loading()    
+};
+handler.help = ['love'];
 handler.tags = ['fun'];
-handler.command = /^(love2|enamorado_de|enamorada_de)$/i;
-handler.group = true;
-
+handler.command = /^(love|amor)$/i;
 export default handler;
