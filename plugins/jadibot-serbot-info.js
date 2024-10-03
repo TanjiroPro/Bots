@@ -11,7 +11,7 @@ async function handler(m, { conn: stars, usedPrefix }) {
 
   let users = [...uniqueUsers.values()]
 
-  let img = await (await fetch(`https://qu.ax/UTgs.jpg`)).buffer()
+  let img = await (await fetch(`https://qu.ax/jjae.jpg`)).buffer()
   let message = users.map((v, index) => `
 *[ \`${index + 1}\` -  ${v.user.name || 'Sin Nombre'} ]*\n* *🤍 \` Link :\`* https://wa.me/${v.user.jid.replace(/[^0-9]/g , '')}\n`).join('\n\n')
 

@@ -97,13 +97,13 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/LTzg.jpg',
-'https://qu.ax/LTzg.jpg',
-'https://qu.ax/OsGd.jpg',
-'https://qu.ax/OsGd.jpg',
-'https://qu.ax/LTzg.jpg',
-'https://qu.ax/LTzg.jpg',
-'https://qu.ax/UTgs.jpg',
+'https://qu.ax/HEJE.jpg',
+'https://qu.ax/HEJE.jpg',
+'https://qu.ax/NXzg.jpg',
+'https://qu.ax/NXzg.jpg',
+'https://qu.ax/HEJE.jpg',
+'https://qu.ax/HEJE.jpg',
+'https://qu.ax/bETU.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363330969414495@newsletter", serverMessageId: 100, newsletterName: '✯ 𝐌𝐢𝐜𝐤𝐞𝐲 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯', }, externalAdReply: { showAdAttribution: true, title: packname, body: '𝗠𝗶𝗰𝗸𝗲𝘆 𝗕𝗼𝘁 - 𝗠𝗗 ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}

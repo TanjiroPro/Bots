@@ -8,20 +8,21 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
-let estado = ` 💫 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 
+let estado = `
+💫 Creador 
 • Yallico
 
- 💫 𝘈𝘊𝘛𝘐𝘝𝘐𝘋𝘈𝘋 
+ 💫 Activo 
 • ${uptime}
 
- 💫 𝘉𝘖𝘛 
+ 💫 Bot 
 • MickeyBot-Md
 
- 💫 𝘋𝘖𝘕𝘈𝘙 
-• Puedes apoyar el bot dando tu estrellita en nuestro repositorio
+ 💫 Donar 
+• Puedes apoyar el bot donando al PayPal
 
- 💫 𝘙𝘌𝘗𝘖𝘚𝘐𝘛𝘖𝘙𝘐𝘖 
-• https://github.com/MickeyVipPro/MickeyBot-Md.git`
+ 💫 Paypal 
+• https://paypal.me/YallicoPe?country.x=PE&locale.x=es_XC`
 await conn.sendButton(m.chat, estado, ' ', pp, [
 ['🤴 Dueño 🤴', '.owner'], ['🫀 Grupos 🫀', '/grupos']], null, [['💫 Canal 💫', `${canal}`]], estilo)
 }

@@ -13,7 +13,7 @@ let estado = `\`乂 S C R I P T  -  B O T\`
 > 😼 *Te gusta nuestro Bot te invito a dejarnos una estrella a nuestro repositorio para seguir mejorando nuestro Bot* ☕
 `
 await conn.sendButton(m.chat, estado, '@yallico.owner', pp, [
-['Dueño 💫', '.owner']], null, [['Git Hub 💫', `https://github.com/MickeyVipPro/MickeyBot-Md`]], estilo)
+['Dueño 💫', '.owner']], null, [['Instagram 💫', `https://Instagram.com/yallico.owner`]], estilo)
 }
 handler.help = ['script']
 handler.tags = ['info']
