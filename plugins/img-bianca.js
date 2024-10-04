@@ -1,5 +1,5 @@
 const handler = async (m, {conn, text, command}) => {
-  const yh = global.kalahari;
+  const yh = global.bianca;
   const url = yh[Math.floor(Math.random() * yh.length)];
   conn.sendMessage(m.chat, {image: {url: url}, caption: '*💥 BIANCA 💥*'}, {quoted: m});
 };
