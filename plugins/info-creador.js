@@ -14,7 +14,7 @@ let caption = `*👋 Hola ${edtr}, este es el contacto de mi creador 💫*`
     await conn.reply(m.chat, caption, tag_own, { mentions: conn.parseMention(caption) })
 
 }
-handler.help = ['owner', 'creator']
+handler.help = ['owner']
 handler.tags = ['main']
 handler.command = /^(owner|creator|creador|dueño)$/i
 

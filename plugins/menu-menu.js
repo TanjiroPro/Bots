@@ -24,8 +24,9 @@ let Styles = (text, style = 1) => {
 };
 
 let tags = {
+  'main': '✨ ɪɴꜰᴏ ʙᴏᴛ ✨',
+  'menu': '👑 ᴍᴇɴᴜ 👑',
   'free': '👾 ꜰʀᴇᴇ ꜰɪʀᴇ 👾',
-  'main': '💫 ɪɴꜰᴏ ʙᴏᴛ 💫',
   'buscador': '🔎 ʙᴜꜱQᴜᴇᴅᴀꜱ 🔎',
   'search': '🔍 ꜱᴇᴀʀᴄʜ 🔍',
   'game': '🎊 ᴅɪᴠᴇʀꜱɪᴏɴ 🎊',
@@ -197,7 +198,7 @@ await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegi
   }
 }
 handler.help = ['menucompleto']
-handler.tags = ['main']
+handler.tags = ['menu']
 handler.command = ['menuall', 'allmenú', 'allmenu'] 
 handler.register = true
 

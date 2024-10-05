@@ -32,6 +32,8 @@ Wa.me/59897246324
 };
 
 handler.command = ['cuentas','cuentasoficiales'];
+handler.help = ['cuentas']
+handler.tags = ['main']
 handler.exp = 35;
 handler.register = true;
 

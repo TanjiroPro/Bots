@@ -16,7 +16,7 @@ await conn.sendButton(m.chat, estado, '@yallico.owner', pp, [
 ['Dueño 💫', '.owner']], null, [['Instagram 💫', `https://Instagram.com/yallico.owner`]], estilo)
 }
 handler.help = ['script']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = /^(sc|script|Repositorio?)$/i
 
 export default handler

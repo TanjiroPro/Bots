@@ -27,7 +27,7 @@ await conn.sendButton(m.chat, estado, ' ', pp, [
 ['🤴 Dueño 🤴', '.owner'], ['🫀 Grupos 🫀', '/grupos']], null, [['💫 Canal 💫', `${canal}`]], estilo)
 }
 handler.help = ['donate']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = /^(apoyar|donate|donar?)$/i
 
 export default handler
