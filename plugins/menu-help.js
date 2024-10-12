@@ -47,27 +47,24 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
 
     m.react("💫");
-    let menu = ``;
+    let menu = `*Hola* \`%name\` *Gracias Por Comunicarte Con :* 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 𝗛𝗻 🤖\n\n*Tu Asistente Virtual 🤖*`;
 
     let txt = ""
-    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Mickey\n`;
-    txt += '`ʙᴏᴛ ::`' + ` MickeyBot-MD\n`;
-    txt += '`ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
-    txt += '`ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
+    txt += '`Creador ::`' + ` Yallico\n`;
+    txt += '`Bot ::`' + ` MickeyBot-MD\n`;
+    txt += '`Fecha ::`' + ` ${fecha}\n`;
+    txt += '`Version ::`' + ` ${vs}\n`;
 //    txt += `${sbot}\n`;
-    txt += '`ᴘʀᴇꜰɪᴊᴏ ::`' + ` [  ${usedPrefix}  ]\n`;
-    txt += '`ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
-    txt += '`ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::`' + ` ${rtotalreg}\n`;
     txt += '`ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
     txt += "ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n";
     
     let listSections = [];
 
         listSections.push({
-        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Mickey`,
+        title: `🔖 Selecciona La Cuenta Que Necesites`, highlight_label: ``,
         rows: [
             {
-                header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
+                header: "👾 Netflix",
                 title: "",
                 description: `Verificacion Automáticamente`,
                 id: `.reg Mickey.18`,
