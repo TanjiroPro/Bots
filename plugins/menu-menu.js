@@ -53,24 +53,23 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `╔═════════════════╗
+  before: `╔════════════════╗
 ┇➤ Hola \`%name\` soy MickeyBot-MD, %greeting
-╚═════════════════╝
+╚════════════════╝
 
-╔═════════════════╗
-┇➤_\`Información Usuario\`
+╔════════════════╗
+┇➤ _\`Información Usuario\`
 ┇
 ┇➤ _\`Nombre\`_ :: %name
-┇➤ _\`Dueño\`_ :: Yallico Owner
+┇➤ _\`Creador\`_ :: Yallico Owner
 ┇➤ _\`Modo\`_ :: Publico
 ┇➤ _\`Tiempo Activo\`_ :: %muptime
 ┇➤ _\`Canal\`_ :: 
-╚═════════════════╝
+╚════════════════╝
 `.trimStart(),
-  header: '╔═════════════════╗',header: '┇➤ _\`%category\`',
-  header: '┇➤',
+  header: '╔═══ %category ══╗',
   body: '┇➤ %cmd\n',
-  footer: '╚═════════════════╝\n',
+  footer: '╚════════════════╝\n',
   after: `> By MickeyBot-Md`,
 }
 let ppp = 'https://qu.ax/OsGd.jpg'
