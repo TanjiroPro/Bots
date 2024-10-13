@@ -24,19 +24,53 @@ let Styles = (text, style = 1) => {
 };
 
 let tags = {
-  'nh': '👾 𝗖𝘂𝗲𝗻𝘁𝗮𝘀 𝗡𝗵 👾',
+  'main': '✨ ɪɴꜰᴏ ʙᴏᴛ ✨',
+  'menu': '👑 ᴍᴇɴᴜ 👑',
+  'free': '👾 ꜰʀᴇᴇ ꜰɪʀᴇ 👾',
+  'buscador': '🔎 ʙᴜꜱQᴜᴇᴅᴀꜱ 🔎',
+  'search': '🔍 ꜱᴇᴀʀᴄʜ 🔍',
+  'game': '🎊 ᴅɪᴠᴇʀꜱɪᴏɴ 🎊',
+  'jadibot': '🤖 ꜱᴜʙ ʙᴏᴛꜱ 🤖',
+  'rpg': '💻 ʀᴘɢ 💻',
+  'rg': '🛡️ ʀᴇɢɪꜱᴛʀᴏ 🛡️',
+  'xp': '⭐ ᴇxᴘ ⭐',
+  'sticker': '💢 ꜱᴛɪᴄᴋᴇʀꜱ 💢',
+  'anime': '💣ᴀɴɪᴍᴇꜱ💣',
+  'database': '💥ᴅᴀᴛᴀʙᴀꜱᴇ💥',
+  'fix': ', ✋🏼 ꜰɪxᴍꜱɢᴇꜱᴘᴇʀᴀ ✋🏼',
+  'grupo': '👥 ɢʀᴜᴘᴏꜱ 👥',
+  'nable': '👀 ᴏɴ / ᴏꜰꜰ 👀', 
+  'dl': '🎵 ᴅᴇꜱᴄᴀʀɢᴀꜱ 🎵',
+  'fun': '⚒️ ʜᴇʀʀᴀᴍɪᴇɴᴛᴀꜱ ⚒️',
+  'info': '⚔️ ɪɴꜰᴏʀᴍᴀᴄɪᴏɴ ⚔️',
+  'nsfw': '🔞 ɴꜱꜰᴡ 🔞', 
+  'owner': '👑 ᴄʀᴇᴀᴅᴏʀ 👑',
+  'mods': '👤 ꜱᴛᴀꜰꜰ 👤',
+  'audio': '🎶 ᴀᴜᴅɪᴏꜱ 🎶', 
+  'ai': '🔰 ᴀɪ ʙᴏᴛ 🔰',
+  'convertir': '⭕ ᴄᴏɴᴠᴇʀᴛɪᴅᴏʀᴇꜱ ⭕',
+  'audios': '🔊 ᴀᴜᴅɪᴏꜱ 🔊',
 }
 
 const defaultMenu = {
-  before: `*Hola* \`%name\` *Gracias Por Comunicarte Con :* 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 𝗛𝗻 🤖
-  
- *Tu Asistente Virtual 🤖*
+  before: `Hola \`%name\` soy MickeyBot-MD, %greeting
 
-*🤖 Comandos Hn 🤖*
+乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
+
+• _\`ɴᴏᴍʙʀᴇ\`_ :: %name
+• _\`ʙᴏᴛ\`_ :: MickeyBot-MD
+• _\`ᴍᴏᴅᴏ\`_ :: Público
+• _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
+• _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
+• _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
+• _\`ɴɪᴠᴇʟ\`_ :: %level
+
+乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
 `.trimStart(),
-  header: '╭─*_`%category`_*',
-  body: '┊🤖 %cmd\n',
-  footer: `╰─────────────–`,
+  header: '╭─(❀)❝┊ *_`%category`_* ┊❝(❀)',
+  body: '┊➧ %cmd\n',
+  footer: '╰───────────── –\n',
+  after: `> By MickeyBot-Md`,
 }
 let ppp = 'https://qu.ax/OsGd.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -151,7 +185,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/
 await m.react('💫') 
 // await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '💫 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
-await conn.reply(m.chat, '🤖 Enviando Menu De Streaming Nh', m, rcanal)
+// await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 let imagen_menu = await getBuffer(ppp);
 await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
@@ -163,9 +197,9 @@ await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegi
     throw e
   }
 }
-handler.help = ['menu']
+handler.help = ['menucompleto']
 handler.tags = ['menu']
-handler.command = ['menu', 'allmenú', 'allmenu'] 
+handler.command = ['menuall', 'allmenú', 'allmenu'] 
 handler.register = true
 
 export default handler
@@ -186,13 +220,13 @@ switch(hour){
   case 0: hour = 'Buenas noches 🌙'; break;
   case 1: hour = 'Buenas noches 💤'; break;
   case 2: hour = 'Buenas noches 🦉'; break;
-  case 3: hour = 'Buenas noches 👾'; break;
+  case 3: hour = 'Buenas noches ✨'; break;
   case 4: hour = 'Buenos dias 💫'; break;
   case 5: hour = 'Buenos dias 🌅'; break;
   case 6: hour = 'Buenos dias 🌄'; break;
   case 7: hour = 'Buenos dias 🌅'; break;
   case 8: hour = 'Buenos dias 💫'; break;
-  case 9: hour = 'Buenos dias 👾'; break;
+  case 9: hour = 'Buenos dias ✨'; break;
   case 10: hour = 'Buenos dias 🌞'; break;
   case 11: hour = 'Buenos dias 🌨'; break;
   case 12: hour = 'Buenos dias ❄'; break;
