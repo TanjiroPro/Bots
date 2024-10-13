@@ -17,7 +17,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
 
   const yt_play = await search(args.join(' '));
   let additionalText = '';
-  if (command === 'Iphone') {
+  if (command === 'play') {
     additionalText = 'audio';
   } else if (command === 'Burbuja') {
     additionalText = 'vídeo';
@@ -27,7 +27,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
 
   await conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m });
 
-  if (command === 'Iphone') {
+  if (command === 'play') {
     try {
       const { status, resultados, error } = await ytmp33(yt_play[0].url);
       if (!status) throw new Error(error);
@@ -134,7 +134,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
   }
 };
 
-handler.command = /^(Iphone|Burbuja)$/i;
+handler.command = /^(play|Burbuja)$/i;
 export default handler;
 
 async function search(query, options = {}) {
