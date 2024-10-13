@@ -224,6 +224,7 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 |------|-------------|-------|
 | Superiority | Mickey Bot | [¡Click aquí!](https://sstem.py.superiority) |
 | Tk Host | Mickey Bot | [¡Click aquí!](https://dash.tk-joanhost.com) |
+| Sky Ultra Plus | Mickey Bot | [¡Click aquí!](https://dash.skyultraplus.com) |
 
 ---
 
@@ -250,6 +251,18 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Vajmcez5PO0xdMq2Qu1e)
 
 </details>
+
+-----
+### ☁️ SKY ULTRA PLUS
+<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+### Información sobre Sky
+- **Dashboard:** [`Aquí`](https://dash.skyultraplus.com)
+- **Panel:** [`Aquí`](https://panel.skyultraplus.com)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Comunidad:** [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
+- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Discord:** [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
+----
 
 ### **`🌴 COLABORADORES`**
 <a href="https://github.com/MickeyVipPro/MickeyBot-Md/graphs/contributors">
