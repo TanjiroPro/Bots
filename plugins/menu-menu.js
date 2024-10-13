@@ -53,23 +53,24 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `Hola \`%name\` soy MickeyBot-MD, %greeting
+  before: `╔═════════════════╗
+┇➤ Hola \`%name\` soy MickeyBot-MD, %greeting
+╚═════════════════╝
 
-乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
-
-• _\`ɴᴏᴍʙʀᴇ\`_ :: %name
-• _\`ʙᴏᴛ\`_ :: MickeyBot-MD
-• _\`ᴍᴏᴅᴏ\`_ :: Público
-• _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
-• _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
-• _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
-• _\`ɴɪᴠᴇʟ\`_ :: %level
-
-乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
+╔═════════════════╗
+┇➤_\`Información Usuario\`
+┇
+┇➤ _\`Nombre\`_ :: %name
+┇➤ _\`Dueño\`_ :: Yallico Owner
+┇➤ _\`Modo\`_ :: Publico
+┇➤ _\`Tiempo Activo\`_ :: %muptime
+┇➤ _\`Canal\`_ :: 
+╚═════════════════╝
 `.trimStart(),
-  header: '╭─ *_`%category`_*',
-  body: '┊➤ %cmd\n',
-  footer: '╰───────────── –\n',
+  header: '╔═════════════════╗',header: '┇➤ _\`%category\`',
+  header: '┇➤',
+  body: '┇➤ %cmd\n',
+  footer: '╚═════════════════╝\n',
   after: `> By MickeyBot-Md`,
 }
 let ppp = 'https://qu.ax/OsGd.jpg'
