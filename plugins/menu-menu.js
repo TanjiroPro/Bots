@@ -58,7 +58,7 @@ const defaultMenu = {
 ╚════════════════╝
 
 ╔════════════════╗
-┇➤ _\`Información Usuario\`
+┇➤ _\`Información Usuario\`_
 ┇
 ┇➤ _\`Nombre\`_ :: %name
 ┇➤ _\`Creador\`_ :: Yallico Owner
@@ -67,9 +67,9 @@ const defaultMenu = {
 ┇➤ _\`Canal\`_ :: 
 ╚════════════════╝
 `.trimStart(),
-  header: '╔═══ %category ══╗',
+  header: '╔══ _\`%category\`_ ══╗',
   body: '┇➤ %cmd\n',
-  footer: '╚════════════════╝\n',
+  footer: '╚═══════════════╝\n',
   after: `> By MickeyBot-Md`,
 }
 let ppp = 'https://qu.ax/OsGd.jpg'
