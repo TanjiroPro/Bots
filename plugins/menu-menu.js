@@ -67,7 +67,7 @@ const defaultMenu = {
 
 乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
 `.trimStart(),
-  header: '╭─*_`%category`_*',
+  header: '╭─ *_`%category`_*',
   body: '┊➤ %cmd\n',
   footer: '╰───────────── –\n',
   after: `> By MickeyBot-Md`,
