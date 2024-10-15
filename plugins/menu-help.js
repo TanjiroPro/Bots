@@ -129,17 +129,17 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://qu.ax/HEJE.jpg";
-    let img = "https://qu.ax/HEJE.jpg";
-    let img2 = "https://qu.ax/HEJE.jpg";
-    let img3 = "https://qu.ax/NXzg.jpg";
-    let img4 = "https://qu.ax/NXzg.jpg";
-    let img5 = "https://qu.ax/HEJE.jpg";
-    let img6 = "https://qu.ax/HEJE.jpg";
-    let img8 = "https://qu.ax/NXzg.jpg";
-    let img9 = "https://qu.ax/NXzg.jpg";
-    let img10 = "https://qu.ax/HEJE.jpg";
-    let img11 = "https://qu.ax/HEJE.jpg";
+    let vid = "https://qu.ax/okuNe.jpg";
+    let img = "https://qu.ax/okuNe.jpg";
+    let img2 = "https://qu.ax/okuNe.jpg";
+    let img3 = "https://qu.ax/okuNe.jpg";
+    let img4 = "https://qu.ax/okuNe.jpg";
+    let img5 = "https://qu.ax/okuNe.jpg";
+    let img6 = "https://qu.ax/okuNe.jpg";
+    let img8 = "https://qu.ax/okuNe.jpg";
+    let img9 = "https://qu.ax/okuNe.jpg";
+    let img10 = "https://qu.ax/okuNe.jpg";
+    let img11 = "https://qu.ax/okuNe.jpg";
 
     await conn.sendListB(m.chat, menu, txt, ` 𓏲୭᳟💫̸̷̸̷᮫᮫໋໋݂݂ׄׄ.𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓𓏲᭔᷼⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
