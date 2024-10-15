@@ -72,7 +72,7 @@ const defaultMenu = {
   footer: '╚═══════════════╝\n',
   after: `> By MickeyBot-Md`,
 }
-let ppp = 'https://qu.ax/OsGd.jpg'
+let ppp = 'https://qu.ax/okuNe.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -170,7 +170,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/OsGd.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/okuNe.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -199,7 +199,7 @@ await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegi
 }
 handler.help = ['menucompleto']
 handler.tags = ['menu']
-handler.command = ['menuall', 'allmenú', 'allmenu'] 
+handler.command = ['menu', 'allmenú', 'allmenu'] 
 handler.register = true
 
 export default handler
